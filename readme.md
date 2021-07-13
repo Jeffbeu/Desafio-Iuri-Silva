@@ -1,7 +1,5 @@
 <h1 align="center">Jordan Store 👋</h1>
-<img alt="demo" src=""/>
 <p>
-  <img alt="Version" src="" />
   <a href="#" target="_blank">
     <img alt="License: ISC" src="desafio2/Screenshot_1.png" />
   </a>
