@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Mini Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <p>Ganhe R$ 10,00 de desconto no frete</p>
+    </header>
+    <section class= "store-title">
+        <h1>Jordan Store</h1>
+    </section>
+    <section class="banner">
+        <div class="container">
+            <h1>A melhor Loja de Jordan</h1>
+            <p id="typed"></p>
+        </div>
+        <button onclick="window.location.href='addshoes.html'" type="button" class="btn">
+            Cadastre um Produto
+        </button>
+    </section>
+    <main>
+        <div class="container">
+            <div class="title">Destaques</div>
+            <div class="description">Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.</div>
+            <div class="container-cards" id="products">
+                <!-- <div class="card">
+                    <img src="desafio 2/img/1.png" alt="Jordan 1">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/2.png" alt="Jordan 2">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/3.png" alt="Jordan 3">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/4.png" alt="Jordan 4">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/5.png" alt="Jordan 5">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/6.png" alt="Jordan 6">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/7.png" alt="Jordan 7">
+                </div>
+                <div class="card">
+                    <img src="desafio 2/img/8.png" alt="Jordan 8">
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <small>&copy; Jordan Store - Todos os Direitos Reservados</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+        strings: ['O tênis Jordan é fruto de uma velha parceria entre a nike e o jogador Michal Jordan'],
+        typeSpeed: 40
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+:root {
+    --cards: #EBE9EA;
+    --light: #FFFFFF;
+    --dark: #181818;
+    --description: #474747;
+    --background: #F6F6F6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+header {
+    background: var(--dark);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+header p {
+    font-size: 13px;
+    font-weight: 500;
+}
+.store-title {
+    display: flex;
+    
+    justify-content: center;
+    background: var(--background);
+    padding: 30px;
+}
+.store-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
